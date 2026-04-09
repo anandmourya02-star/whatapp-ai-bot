@@ -5,8 +5,8 @@ import time
 app = Flask(__name__)
 
 VERIFY_TOKEN = "12345"
-WHATSAPP_TOKEN = "EAALCGSbb7b8BRCwf8ZAauUtPRKNg1cR4lGdvQFAxQFRLLqQvyqGi08VI3jw8ENC6CUcbNxaPsYENLFb82RtddOwfamFseR2eHFskHF4R7ZCRjoZBqtatK6xPCV7V4MBHKMh2K1omVIZAnLnJcBbkvmhPXZAdbZCg97RZCl3cjsZBA0t8tbduKj1IllnZBlkuTItQ7uhX3aAa0KjtZCmm1g2xHdgE9bhdHBYBsN3KA4iPpmavNSkll90Kuj3haWh8ZAP5JVPu2w8ISollj2ZBvvg6Kq7dUjbBtg3MU5K8fAZDZD"
-PHONE_ID = "+18142043781"
+WHATSAPP_TOKEN = "take your own token"
+PHONE_ID = "your phone id "
 
 def send_message(phone, message):
     url = f"https://graph.facebook.com/v18.0/{PHONE_ID}/messages"
